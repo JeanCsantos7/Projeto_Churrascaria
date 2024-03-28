@@ -1,0 +1,89 @@
+.Titulo {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: rgb(80, 45, 45);
+  font-size: clamp(22px, 32px, 35px);
+  margin-top: 13%;
+}
+
+.subTitulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(205, 133, 66);
+  margin-top: 1%;
+}
+
+.informações {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  text-align: center;
+  color: rgb(80, 45, 45);
+  margin-top: 1.2%;
+  padding: 2%;
+}
+
+.containerMaster {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  height: 540px;
+  border-radius: 6px;
+  background-color: rgb(80, 45, 45);
+  margin-top: 6.5%;
+  padding: 2%;
+}
+
+.imagemCarrosel {
+  width: 100%;
+  height: 315px;
+  object-fit: cover;
+  max-width: 100vw;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.tituloDetalhes {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  color: rgb(205, 133, 66);
+  text-align: center;
+  padding-top: 4.5%;
+}
+
+.informacoesDetalhes {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  color: #fff;
+  margin-left: 3%;
+  padding: 3.9%;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .Titulo {
+    margin-top: 1%;
+  }
+
+  .subTitulo {
+    margin-top: 0.7%;
+  }
+
+  .informações {
+    width: 50%;
+    padding: 0.3%;
+    margin-left: 25%;
+    margin-top: 0.4%;
+  }
+
+  .container {
+    width: 30%;
+    height: 580px;
+    margin-top: 4.5%;
+  }
+}

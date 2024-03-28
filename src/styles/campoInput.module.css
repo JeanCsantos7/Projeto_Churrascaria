@@ -1,0 +1,45 @@
+.campoInput {
+  width: 75%;
+  height: 53px;
+  color: rgb(80, 45, 45);
+  border: 1px solid rgb(205, 133, 66);
+  outline: none;
+}
+
+.buttonInput {
+  width: 15%;
+  height: 53px;
+  background-color: rgb(80, 45, 45);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.lupa {
+  color: rgb(205, 133, 66);
+  font-size: 26px;
+}
+
+.containerInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19%;
+  padding: 4%;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .containerInput {
+    margin-top: 6%;
+  }
+
+  .campoInput {
+    width: 26%;
+    height: 35px;
+  }
+
+  .buttonInput {
+    width: 6%;
+    height: 35px;
+  }
+}
